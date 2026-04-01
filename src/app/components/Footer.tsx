@@ -16,26 +16,26 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                 <div className="w-4 h-4 bg-white rounded-sm rotate-45" />
-               </div>
-               <span className="text-xl font-extrabold tracking-tight">FN Press Wire</span>
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                <div className="w-4 h-4 bg-white rounded-sm rotate-45" />
+              </div>
+              <span className="text-xl font-extrabold tracking-tight">FN Press Wire</span>
             </div>
             <p className="text-blue-100/60 leading-relaxed text-sm">
               Your comprehensive platform for international communications, media relations, and professional PR analytics.
             </p>
             <div className="flex items-center gap-4">
               <Link href="#" className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all">
-                 <Facebook className="w-5 h-5" />
+                <Facebook className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all">
-                 <Twitter className="w-5 h-5" />
+                <Twitter className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all">
-                 <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all">
-                 <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -68,9 +68,9 @@ export default function Footer() {
           <div className="space-y-6">
             <h4 className="text-lg font-bold">Stay Updated</h4>
             <form className="space-y-4 pt-4">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
+              <input
+                type="email"
+                placeholder="Enter your email"
                 className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-primary transition-all"
               />
               <button className="w-full py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/10">
